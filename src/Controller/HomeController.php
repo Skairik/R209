@@ -16,7 +16,7 @@ class HomeController extends AbstractController
 {
     /**
      * @IsGarented("ROLE_ADMIN")
-     * @Route("/home", name="app_home")
+     * @Route("/", name="app_home")
      */
     public function index(): Response
     {
