@@ -15,7 +15,7 @@ use Symfony\Component\HttpFoundation\Request;
 class HomeController extends AbstractController
 {
     /**
-     * @IsGarented("ROLE_ADMIN")
+     * @IsGranted("ROLE_ADMIN")
      * @Route("/", name="app_home")
      */
     public function index(): Response
